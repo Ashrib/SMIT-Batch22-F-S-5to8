@@ -7,17 +7,25 @@ h1, h2{
     background-color: rgb(216, 255, 216);
 }
 
-
 .blue-text{
-    color: rgb(14, 111, 255);
+    color: rgb(200, 46, 255);
 }
 
 .italic-text{
     font-style: italic;
-    color: rgb(121, 3, 3);
+    color: #0000;
     font-weight: bold;
 }
 
 #info-section{
     background-color: rgba(128, 128, 128, 0.578);
+}
+
+
+.square{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    font-size: 2.5em;
+    font-weight: 900;
 }

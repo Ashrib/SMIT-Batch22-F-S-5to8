@@ -1,0 +1,38 @@
+
+p{
+    /* color: red; */
+    background-color: antiquewhite;
+}
+
+#p1{
+    color: green;
+}
+
+p{
+   /* color: blue !important;  */
+}
+
+.color-text{
+    color: blueviolet;
+}
+
+
+p{
+    /* color: rgb(0, 81, 81) !important; */
+}
+
+
+div{
+    color: chartreuse;
+    border: 1px solid black;
+}
+
+p{
+    border: inherit;
+}
+
+
+
+
+
+
