@@ -13,7 +13,7 @@ h1, h2{
 
 .italic-text{
     font-style: italic;
-    color: #0000;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -23,7 +23,10 @@ h1, h2{
 
 
 .square{
-    background-color: rgb(255, 0, 0);
+    background-color: red;
+    /* opacity: 0.5; */
+    /* background-color: rgba(255, 0, 0, 0.381); */
+    background-color: hsla(200, 65%, 20%,0.59);
     width: 200px;
     height: 200px;
     font-size: 2.5em;
