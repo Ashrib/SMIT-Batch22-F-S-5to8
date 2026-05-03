@@ -21,12 +21,76 @@
     width: 50%;
 }
 
-p{
+.child:hover{
+    background-color: rgb(147, 255, 6);
+}
+
+p:hover{
     font-weight: bold;
     font-style: oblique;
 }
 
-h1{
+h1:hover{
     text-transform: capitalize;
+    text-shadow: -10px 10px 5px #000000;
+}
+
+.text-dec{
+    text-decoration: underline;
+}
+
+.p3{
+    line-height: 35px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+
+.p4{
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.p4:first-line{
+    font-size: 2em;
+}
+.p4:first-letter{
+    font-weight: 900;
+    color: red;
+}
+
+.img-text{
+    border: 1px solid black;
+}
+
+.v-text-align{
+    vertical-align: bottom;
+}
+
+#smit-img{
+    background-image: url('./bc-01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    text-indent: -9999px;
+}
+
+
+
+a:hover{
+    color: rgb(255, 204, 0);
+}
+
+
+a:visited{
+    color:black;
+}
+a:active{
+    color:rgb(0, 255, 26);
+}
+
+
+input:focus{
+    outline-color: red ;
 }
 
