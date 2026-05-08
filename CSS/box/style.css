@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container{
+    background-color: rgba(255, 201, 131, 0.762);
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+#box1{
+    height: 300px;
+    width: 80%;
+    /* background-color: aqua; */
+    font-size: 1.5em;
+    min-width: 300px;
+    max-width: 1000px;
+    border-width: 5px;
+    border: 5px solid black;
+    /* border-color: red green blue orangered;
+    border-top-style: double; */
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+
+.parent{
+    height: 600px;
+    width: 70%;
+    background-color: rgb(209, 255, 118);
+    padding: 30px;
+    overflow: scroll;
+    /* overflow-y: ;
+    overflow-x: ; */
+}
+
+.child1, .child2{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.child1{
+    background-color: red;
+    margin-left: 100px;
+}
+.child2{
+    background-color: blue;
+}
