@@ -1,3 +1,4 @@
+@import url('./animation.css');
 
 .box{
    
@@ -76,10 +77,15 @@ h2{
 nav{
     background-color: aqua;
     padding: 10px;
-    position: fixed;
-    top: 0px;
+    /* position: fixed; */
+    top: 20px;
     width: 100vw;
     z-index: 999;
+
+    position: sticky;
+
+    
+
 }
 
 li{
@@ -87,3 +93,13 @@ li{
     margin-left: 15px;
 }
 
+
+
+.relative-box{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
