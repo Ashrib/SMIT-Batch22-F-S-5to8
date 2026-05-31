@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    /* background-color: rgb(120, 209, 250); */
+}
+.google-content{
+    height: 350px;
+    /* width: 700px; */
+    /* background-color: rgb(255, 145, 0); */
+    display: flex;
+
+}
+.google-links{
+    /* background-color: rgb(2, 255, 171); */
+
+}
+
+.left{
+    /* background-color: blueviolet; */
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.right{
+    /* background-color: rgb(255, 17, 92); */
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+
+
+.google-links{
+    padding: 10px;
+}
+
+.left > img {
+    width: 80px;
+    height: 80px;
+}
+.signIn-title{
+    font-size: 1.5em;
+}
+
+.input-box {
+    width: 100%;
+
+}
+
+.input-box > input{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* media screens */
+@media screen and (max-width:425px) {
+    .parent{
+        width: 100%;
+    }
+    .google-content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+

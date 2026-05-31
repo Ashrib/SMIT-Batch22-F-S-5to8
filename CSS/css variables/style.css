@@ -1,0 +1,28 @@
+:root{
+    /* declare global variable */
+    --fontThemeColor: rgba(0, 58, 175, 0.882); 
+    --headingThemeSize: 2em;
+}
+
+
+h2{
+    color: var(--fontThemeColor) ;
+    font-size: var(--headingThemeSize);
+}
+
+p{
+    color: var(--fontThemeColor) ;
+}
+
+h5{
+    background-color: var(--fontThemeColor) ;
+}
+
+.content-box{
+    /* local variable */
+    --spacingValue: 16px; 
+
+    padding:  var(--spacingValue);
+    margin: var(--spacingValue) ;
+}
+

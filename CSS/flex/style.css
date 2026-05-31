@@ -48,7 +48,8 @@
 
 .child5{
     background-color: rgb(3, 255, 100);
-}.child6{
+}
+.child6{
     background-color: rgb(75, 66, 67);
     /* flex-grow: 4; */
 }
@@ -102,3 +103,23 @@ body{
 .product-details > p{
     text-align: center;
 } */
+
+
+body{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+
+html{
+    font-size: 32px;
+}
+
+div{
+    font-size: 2rem;
+}
+
+
