@@ -1,0 +1,72 @@
+nav {
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    background-color: aqua;
+    /* width: 30%; */
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.links {
+    background-color: blueviolet;
+    /* width: 70%; */
+    flex-grow: 4;
+}
+.btns {
+    background-color: brown;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+    padding: 15px;
+}
+
+.icons, .tab-text{
+    display: none;
+}
+
+/* media screens */
+
+@media screen and (max-width:768px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    .link-text{
+        display: none;
+    }
+    .icons{
+        display: block;
+        color: white;
+        font-size: 2em;
+    }
+
+    .links > ul{
+        justify-content: space-evenly;
+        padding-right: 40%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) and (min-width:426px){
+    .tab-text{
+        display: block;
+    }
+    
+}
