@@ -76,46 +76,23 @@ nav div{
     font-size: clamp(1.5rem, 15vw, 3rem);
 }
 
-p::before{
+/* p::before{
     content: "";
     width: 100px;
     height: 4px;
     background-color: red;
     border: 1px solid black;
+} */
+
+h2{
+    /* display: inline-block; */
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
-
-p::after{
-    content: " ****** ";
+h2::after, h2::before{
+    content: "";
+    background-color: red;
+    flex: 1;
+    height: 3px;
 }
-.red-underline {
-  position: relative; /* Essential to anchor the line to this element */
-  display: inline-block;
-}
-
-.red-underline::after {
-  content: "";       /* Required for the pseudo-element to render */
-  position: absolute;
-  left: 0;
-  bottom: -5px;      /* Positions the line 5px below the text */
-  width: 100%;       /* Spans the full width of the text */
-  height: 3px;       /* Thickness of the line */
-  background-color: red;
-}
-.side-lines {
-  display: flex;
-  align-items: center; /* Vertically centers the lines with the text */
-  text-align: center;
-  gap: 15px;          /* Space between the text and the lines */
-}
-
-.side-lines::before,
-.side-lines::after {
-  content: "";
-  flex: 1;            /* Forces the lines to fill up available side space */
-  height: 2px;
-  background-color: red;
-}
-
-
-
-
