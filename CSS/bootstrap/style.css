@@ -1,0 +1,8 @@
+.container-fluid{
+    height: 400px;
+    background-color: rgba(255, 117, 117, 0.641);
+    /* padding: 0 !important; */
+}
+.parent{
+    /* margin: 0 !important; */
+}
