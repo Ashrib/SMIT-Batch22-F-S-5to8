@@ -22,4 +22,75 @@ var marks = [10,40,50];
 
 var num1 = 2;
 
-console.log(num1 ** 3) ;  // a ^ n
+// console.log(num1 ** 3) ;  // a ^ n
+
+
+console.log("hello, " +  users[0])
+console.log("hello, " +  users[1])
+console.log("hello, " +  users[2])
+
+
+users[0] = 'new name';
+console.log(users);
+
+users = [];
+console.log("-----------empty array---------");
+console.log(users);
+
+users[0] = 'abc';
+users[1] = 'abc1';
+users[2] = null;
+users[3] = null;
+users[4] = 'abc1';
+// console.log(users[10]);  /// undefined
+console.log(users);  
+
+
+
+/////  ----- Array methods ---------
+
+// adding new elements 
+users.push('new user', 'new user 2', 'user 3');
+console.log('---array after push---');  
+console.log(users);  
+
+// removing elements from the end
+users.pop()
+users.pop()
+users.pop()
+console.log('---array after pop---');  
+console.log(users);  
+
+// removing elements from the start
+users.shift()
+console.log('---array after shift---');  
+console.log(users);  
+
+// adding elements from the start
+users.unshift('a');
+console.log('---array after unshift---');  
+console.log(users); 
+
+
+
+//// splice
+
+/// 1. add new elements anywhere
+users.splice(3,0, 'b','c' );
+console.log('---array after splice---');  
+console.log(users); 
+
+
+/// 2. add and remove (both) new elements anywhere
+users.splice(5,1, 'd','e' );
+console.log('---array after splice---');  
+console.log(users); 
+
+
+/// 3. only remove elements anywhere
+users.splice(2,1);
+console.log('---array after splice---');  
+console.log(users); 
+
+
+prompt('1. only add\n2. only remove');
