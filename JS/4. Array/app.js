@@ -93,4 +93,17 @@ console.log('---array after splice---');
 console.log(users); 
 
 
-prompt('1. only add\n2. only remove');
+// prompt('1. only add\n2. only remove');
+
+var arr1 = [30,40,50,60,70,80,90,100];
+console.log(arr1);
+
+var arr2 = arr1.slice(0, 3);
+
+// arr2.pop()
+
+console.log(arr2);
+
+var arr3 = arr1.slice(-3, -1)  // n -1 ==> (-1) -1
+console.log(arr3);
+
