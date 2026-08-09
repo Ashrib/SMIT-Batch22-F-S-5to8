@@ -55,4 +55,22 @@ else{
 }
 
 
+var letters = ['a','b','c','d']
+letters[0];
+
+text[0];
+
+///// charAt() only for text
+
+console.log(text.charAt(text.length - 1));
+
+
+///// to replace the string  ----- only for the 1st value
+// text = text.replace("World War II", "Second World War");
+// console.log(text)
+
+
+//// global replace
+text = text.replace(/World War II/g , "Second World War");
+console.log(text);
 
