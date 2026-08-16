@@ -1,5 +1,3 @@
-
-
 // var randomNums = Math.random() * 100000000000000000;
 // console.log(randomNums);
 
