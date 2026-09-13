@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .img-box {
+            border: 1px solid black;
+            height: 300px;
+            width: 280px;
+        }
+
+        .hidden-elm {
+            visibility: hidden;
+        }
+
+        .show-elm {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input id="email-inp" type="text" placeholder="enter your email"
+        onFocus="this.style.backgroundColor='yellow';this.style.padding='5px';"
+        onBlur="this.style.backgroundColor='white';this.style.padding='1px';" />
+
+    <input type="text" placeholder="enter your password" onFocus="this.style.backgroundColor='yellow';"
+        onBlur="this.style.backgroundColor='white'" />
+
+
+    <div class="parent">
+        <div class="img-box">
+            <img id="b-img" height="300" width="280" src="./BUILDING.jpg" alt="">
+        </div>
+
+        <button onClick="imgVisib()">click</button>
+    </div>
+
+
+
+    <form onSubmit="handleSubmit(event)">
+        <input type="text" placeholder="email">
+
+        <input type="submit" />
+    </form>
+
+
+    <div>
+        <p id="text">Slow lorises are a group of several species of strepsirrhine primates which make up the genus
+            Nycticebus.</p>
+            <a href="JavaScript:void(0)" onClick="showText()">see more...</a>
+    </div>
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
