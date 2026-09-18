@@ -34,6 +34,36 @@ lorises have a toxic bite, a rare trait among mammals.`
 document.getElementById('text').innerText = text;
 
 
-
 }
+
+var images = ['./images/BUILDING.jpg', './images/images (1).jpg', './images/images.jpg', './images/ORANGE.jpg']
+
+var sliderImg = document.getElementById('slider-img');
+
+
+
+
+var indexCount = 0;
+
+setInterval(function (){
+    if(indexCount == images.length){
+        indexCount = 0
+    }
+
+    sliderImg.src = images[indexCount];
+    indexCount++;
+    
+}, 1500);
+
+
+
+
+var pElms = document.getElementsByTagName('p');
+
+console.log(pElms)
+
+
+
+
+
 
