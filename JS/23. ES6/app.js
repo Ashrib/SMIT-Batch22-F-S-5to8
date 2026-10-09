@@ -44,3 +44,29 @@ console.log(factorial(4));
 
 /// DSA
 /// OOPS
+
+
+let num2 = 20;
+if(num2){  
+    console.log('hello from if')
+}
+
+if(!num2){   //// falsy  ------ '' , null, undefined, 0, NaN
+    console.log('hello from if')
+}
+
+
+// if(true) console.log()
+
+
+let arr = [];
+
+// if(arr){  ///  X
+//     console.log('array console')
+// }
+
+
+/// ternary 
+let result = (num2 == 20) ? num2 * 5 : 0 ;
+console.log(result);
+
