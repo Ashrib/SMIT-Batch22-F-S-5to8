@@ -26,15 +26,28 @@ console.log(filterNums);
 let users = [
     {
         name: 'user1',
-        age: 20
+        age: 20,
+        city: 'karachi'
     },
     {
         name: 'user2',
-        age: 23
+        age: 23,
+        city: 'lahore'
     },
     {
         name: 'user3',
-        age: 28
+        age: 15,
+        city: 'karachi'
+    },
+    {
+        name: 'user4',
+        age: 41,
+        city: 'islamabad'
+    },
+    {
+        name: 'user5',
+        age: 30,
+        city: 'karachi'
     }
 ]
 
@@ -45,6 +58,52 @@ let filterUsers = users.filter((user)=> {
 
 })
 console.log(filterUsers); 
+
+
+let karachiUsers = users.filter((user)=> user.city == 'karachi' || user.city == 'islamabad');
+console.log(karachiUsers)
+
+
+let findUser = users.find((user)=> user.city == 'karachi')  /// 
+console.log(findUser); 
+
+
+
+let nums = [9,3,76,5,2,6,7,100];
+let chars = ['c','d','a','b','w','e'];
+chars.sort();
+console.log(chars); 
+
+// nums.sort((a,b)=> a - b);
+// nums.sort((a,b)=> b - a);
+console.log(nums); 
+
+
+users.sort((a,b)=> a.age - b.age)
+console.log(users); 
+
+
+let a = 20
+
+
+// ...   (spread opt)
+
+let nums2 = [...nums, 200, ...chars, 'x','y','z'] 
+console.log(nums2)
+
+
+
+
+
+//// 1. students array 
+
+//// failed stds
+//// passed stds
+
+/// sort both 
+
+
+/// result no.of passing and failing, highest and the lowest
 
 
 

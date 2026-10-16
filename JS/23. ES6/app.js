@@ -70,3 +70,24 @@ let arr = [];
 let result = (num2 == 20) ? num2 * 5 : 0 ;
 console.log(result);
 
+
+
+///// ... (rest)
+let viewUser = (name, age, city, ...otherData) =>{  // (rest parameter)
+    console.log(name)
+    console.log(age)
+    console.log(city)
+    console.log(otherData)
+}
+
+
+viewUser('abc',20,'xyz');
+viewUser('abc',20,'xyz',03000243);
+viewUser('abc',20,'xyz',03000243, 42221011134);
+
+
+
+
+
+
+
