@@ -93,8 +93,6 @@ console.log(nums2)
 
 
 
-
-
 //// 1. students array 
 
 //// failed stds
@@ -102,8 +100,25 @@ console.log(nums2)
 
 /// sort both 
 
-
 /// result no.of passing and failing, highest and the lowest
+
+
+console.log(chars.includes('a'));
+
+// let numbers = [1,2,3,4,5];
+
+// let total = numbers.reduce((previousSum, num)=> previousSum * num , 0)
+// console.log(total)
+
+
+
+console.log(typeof {});
+console.log(typeof []);
+
+console.log(Array.isArray(chars));
+
+
+
 
 
 
