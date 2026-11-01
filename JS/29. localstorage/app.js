@@ -6,7 +6,7 @@ let num = 30;
 let obj = {
     a: 30,
     b: 40,
-    c: 'abc'
+    c: 'abc',
 }
 
 /// store in localstorage
@@ -26,6 +26,3 @@ console.log(dataFromLS)
 
 /// JSON
 // window.sessionStorage.setItem("data", 400)
-
-
-

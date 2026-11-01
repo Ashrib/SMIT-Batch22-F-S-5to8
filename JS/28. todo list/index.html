@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .done{
+            background-color: rgb(149, 254, 149);
+            text-decoration: line-through;
+        }
+
+        .todo{
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+    </style>
 </head>
 <body >
 
@@ -14,6 +26,7 @@
         <div id="input-section">
             <input type="text" name="" id="todo-inp">
             <button id="addBtn"  onClick="addTodo()">add</button>
+            <button id="delAllBtn"  onClick="deleteAllTodos()">delete all</button>
         </div>
 
         <div class="todo-lists"></div>
